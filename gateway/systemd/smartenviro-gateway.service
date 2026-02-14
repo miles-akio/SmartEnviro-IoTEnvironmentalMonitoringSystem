@@ -1,0 +1,22 @@
+[Unit]
+Description=SmartEnviro Gateway Service
+After=network.target bluetooth.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/SmartEnviro/gateway
+ExecStart=/usr/bin/python3 /home/pi/SmartEnviro/gateway/gateway_service.py
+Restart=on-failure
+RestartSec=10
+
+# Environment
+Environment="PYTHONUNBUFFERED=1"
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=smartenviro-gateway
+
+[Install]
+WantedBy=multi-user.target
