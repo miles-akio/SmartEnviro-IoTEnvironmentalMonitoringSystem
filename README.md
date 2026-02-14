@@ -63,7 +63,7 @@ This architecture applies to Design Catapult's typical projects:
 
 ---
 
-## 🏆 Why This Project Matters for Design Catapult
+## 🏆 Why This Project Matters
 
 ### Demonstrates Core Competencies
 
