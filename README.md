@@ -11,7 +11,7 @@
 ## 📋 Table of Contents
 
 - [Project Overview](#-project-overview)
-- [Why This Project Matters for Design Catapult](#-why-this-project-matters-for-design-catapult)
+- [Why This Project Matters](#-why-this-project-matters-for-design-catapult)
 - [System Architecture](#️-system-architecture)
 - [Technologies Demonstrated](#-technologies-demonstrated)
 - [Hardware Requirements](#️-hardware-requirements)
